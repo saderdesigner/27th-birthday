@@ -53,6 +53,10 @@ $(document).ready(function() {
         }
 
     })
+    $('.tin').click(function(){
+        $('.stage3').fadeOut();
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Hít hít thơm quá!','Bánh chín rồi nè, mình mang ra thôi');
+    })
 
     $('.tin').draggable({
         revert:true
