@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <title>27th BirthDay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class='birthday'>
+        <div class='birthday_inner'>
+            <div class='birthday_inner__modal'>
+                <div class='modal_image'>
+                    <img src='/'>
+                </div>
+                <div class='modal_content'>
+                    <h1>Title</h1>
+                    <p>Content</p>
+                    <button>Hiểu rồi ông già!</button>
+                </div>
+            </div>
+            <div class='birthday_inner__stage stage1'>
+                <div class='intro_cake'>
+                    <img class='intro' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake.png'>
+                </div>
+                <button class='start'>Làm bánh thui!</button>
+            </div>
+            <div class='birthday_inner__stage stage2'>
+                <h1>Đầu tiên là trộn đều hết nhé...</h1>
+                <h2>Trộn hết nguyên liệu lại với nhau, bấm cái nút ở dưới để trộn á :)</h2>
+                <h2>Nhớ là quay đều tay nha</h2>
+                <div class='mix'>
+                    <div class='mix_bowl'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/bowl.png'>
+                    </div>
+                    <div class='mix_spoon'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/spoon.png'>
+                    </div>
+                </div>
+                <button class='mixer'>Bấm ở đây để trộn nè</button>
+            </div>
+            <div class='birthday_inner__stage stage3'>
+                <h1>Tiếp theo là nướng lên á</h1>
+                <h2>Kéo cái bánh bỏ vô lò nhanh lên nè, để một hùi là kem nó hết ngon giờ...</h2>
+                <div class='oven'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven.png'>
+                </div>
+                <div class='tin'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tin.png'>
+                </div>
+            </div>
+            <div class='birthday_inner__stage stage4'>
+                <h1>Rùi giờ là công đoạn quan trọng nhất nè</h1>
+                <h2>Tự em trang trí cái bánh cho đẹp á nha, anh không biết gì đâu... kaka</h2>
+                <div class='svg'>
+                    <p>Mừng sinh nhật lần thứ 27 của em nhe, vì biết em chưa có tâm trạng làm sinh nhật, nên hôm nay anh chỉ chúc em trước thôi. Còn tiệc và quà chắc chắn sẽ có á.</p>
+                    <br>
+                    <p>Chúc em tuổi mới nhiều may mắn, thành công và luôn luôn trẻ đẹp, anh sẽ luôn ở bên em, yêu em nhiều nhiều.</p>
+                </div>
+                <div class='options'>
+                    <div class='sponges inactive'>
+                        <h3>Sponges</h3>
+                        <h5>
+                            <span>0</span>
+                            / 5
+                        </h5>
+                        <div class='item'>
+                            <div class='item_inner vanilla'></div>
+                            <h4>Vanilla</h4>
+                        </div>
+                        <div class='item'>
+                            <div class='item_inner strawberry'></div>
+                            <h4>Pink</h4>
+                        </div>
+                        <div class='item'>
+                            <div class='item_inner fruit'></div>
+                            <h4>Fruit</h4>
+                        </div>
+                    </div>
+                    <div class='fillings'>
+                        <h3>Fillings/icing</h3>
+                        <h5>
+                            <span>0</span>
+                            / 6
+                        </h5>
+                        <div class='item'>
+                            <div class='item_inner jam'></div>
+                            <h4>Jam</h4>
+                        </div>
+                        <div class='item'>
+                            <div class='item_inner cream'></div>
+                            <h4>Cream</h4>
+                        </div>
+                        <div class='item'>
+                            <div class='item_inner choc'></div>
+                            <h4>Choc</h4>
+                        </div>
+                        <div class='item'>
+                            <div class='item_inner lemon'></div>
+                            <h4>Lemon</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class='cakemake'>
+                    <div class='base'></div>
+                </div>
+                <button class='add'>Add the candle</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
