@@ -9,7 +9,7 @@ body {
     background: #fbefec;
     background: radial-gradient(ellipse at center, #fbefec 0%, #dab4b4 100%);
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 body .birthday .add {
     margin-top: 40px;
