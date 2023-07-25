@@ -166,8 +166,8 @@ body .birthday_inner__stage .startagain {
 }
 
 .birthday_inner__stage.stage4 {
-    top: 0;
-    transform: translateY(0);
+    top: 0 !important;
+    transform: translateY(0) !important;
 }
 
 .birthday_inner__stage .stage4-wrapper {
