@@ -9,7 +9,7 @@ body {
     background: #fbefec;
     background: radial-gradient(ellipse at center, #fbefec 0%, #dab4b4 100%);
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
 }
 body .birthday .add {
     margin-top: 40px;
@@ -100,6 +100,7 @@ body .birthday_inner__stage {
     top: 40%;
     display: none;
     transform: translateY(-25%);
+    overflow-y: auto;
 }
 
 body .birthday_inner__stage h1 {
