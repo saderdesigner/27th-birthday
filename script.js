@@ -121,6 +121,7 @@ $(document).ready(function() {
         },1000)
         add_candle()
         $('.svg').addClass('show')
+        $('.pyro').addClass('show')
     }
 
     function add_candle(){

@@ -576,6 +576,11 @@ line {
 .pyro {
     position: absolute;
     top: 50%;
+    display: none;
+}
+
+.pyro.show {
+    display: block;
 }
 
 .pyro > .before, .pyro > .after {
