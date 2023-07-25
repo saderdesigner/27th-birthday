@@ -120,7 +120,7 @@ $(document).ready(function() {
             $('.cakemake').animate({'margin-top':'0px'})
         },1000)
         add_candle()
-        $('svg').addClass('text')
+        $('.svg').addClass('show')
     }
 
     function add_candle(){
